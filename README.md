@@ -13,7 +13,7 @@ You have been provided with a starter project that includes user authentication 
 
 ### **1. Choose a Real-World Application**
 
-Select a meaningful use case for your CRUD operations. We will provide the list, you have to select it.
+news management system
 
 ### **2. Project Management with JIRA and SysML**
 
@@ -22,7 +22,7 @@ Select a meaningful use case for your CRUD operations. We will provide the list,
   * **User Stories** (features required in your app)
   * **Child issues & Subtasks** (breaking down development work)
   * **Sprint Planning** (organizing work into milestones)
-* Document your JIRA **board URL** in the project README.
+* Document your JIRA **https://chhagankumar.atlassian.net/jira/software/projects/NMS/boards/1** in the project README.
 * Draw a requirements diagram
 
 ### **3. Backend Development (Node.js + Express + MongoDB)**
