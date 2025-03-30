@@ -13,10 +13,11 @@ app.use(cors());
 app.use(express.json());
 app.use('/api/auth', require('./routes/authRoutes'));
 //app.use('/api/tasks', require('./routes/taskRoutes'));
+app.use('/api/news', require('./routes/newsRoutes'));
 
 // Export the app object for testing
 if (require.main === module) {
-    connectDB();
+    connectDB('mongodb+srv://chhagan:chhagan@cluster0.wlkz3ya.mongodb.net/sdlapp?retryWrites=true&w=majority&appName=Cluster0');
     // If the file is run directly, start the server
     const PORT = process.env.PORT || 5001;
     app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
